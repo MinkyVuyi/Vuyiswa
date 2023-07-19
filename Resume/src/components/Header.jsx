@@ -1,12 +1,13 @@
 export default function Header() {
   return (
     <header className="head">
+      <div className="description">
      <div className="name">
       <h1>Vuyiswa Diale</h1>
     </div>
       
       <h4 className="career">Software Engineering Student</h4>
-   
+      </div>
 
       <div className="profile">
         <picture>
@@ -20,7 +21,7 @@ export default function Header() {
         <p>An aspiring Software Developer seeking to have an opportunity to showcase her skills and abilities in a fun and challenging working environment. This will encourage her to improve and become the best candidate for the job and to learn new and necessary skills and to be mentored by the company to do her best as this will help her and the company to advance in the software engineering industry.</p>
       </div>
 
-      <div className="address">
+      <div className="contacts">
         <p><i className="fa-solid fa-phone"></i> 0691869937</p>
         <p><i className="fa-solid fa-house"></i> 554 Ngeneng Section, Lefaragatlha, Rustenburg, 0309</p>
         <p><i className="fa-regular fa-envelope"></i> dialevuyiswa@gmail.com</p>

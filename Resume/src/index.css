@@ -12,8 +12,10 @@ body {
   background-image: url(https://static.licdn.com/sc/h/5q92mjc5c51bjlwaj3rs9aa82);
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 25vw;
+  padding-top: 31vw;
   color: white;
+  margin-top: -18vw;
+  
 }
 
 /* Normal laptop Screen */
@@ -46,8 +48,7 @@ img {
   height: 32vw;
   border-radius: 80%;
   border: 4px solid white;
-  margin-bottom: 7vw;
-  margin-top: -25vw;
+  margin-top: -100vw;
 }
 
 /* nav */
@@ -92,7 +93,8 @@ nav ul li a {
 
 /*contacts*/
 .contacts {
-  margin-left: 30vw;
+  margin-left: 65vw;
+  margin-top: -5vw;
 }
 
 @media only screen and (min-width: 701px) and (max-width: 1000px) {
@@ -139,17 +141,27 @@ nav ul li a {
 /* name */
 .name {
   font-size: 2vw;
-  margin-bottom: 5vw;
-  padding-left: 50vw;
+  margin-bottom: 20vw;
+  padding-left: 20vw;
   color:navy;
 }
 
 /* career */
 .career {
   font-size: 2vw;
-  margin-top: -2vw;
-  margin-left: 30vw;
-  margin-bottom: -3vw;
+  margin-right: 5vw;
+  margin-top: -20vw;
+  padding-left: 25vw;
+  font-style: italic;
+  font-weight: normal;
+  font-family: cursive;
+  color: #042d9da7;
+ }
+
+ /* description */
+ .description {
+  margin-top: -5vw;
+  padding-bottom: 25vw;
  }
 
  /* profile */
@@ -276,11 +288,6 @@ button:hover {
   border: none;
 }
 
-.address {
-  font-size: 1.5vw;
-  margin-top: 5vw;
-  padding-bottom: 2vw;
-}
 
 .icons {
   display: flex;
