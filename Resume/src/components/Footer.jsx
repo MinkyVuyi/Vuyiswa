@@ -1,7 +1,11 @@
+import React from 'react';
+
 export default function Footer() {
   return (
     <>
+    <div className="contact">
       <h3>Contact Form</h3>
+      </div>
       <div className="form">
         <form action="https://formsubmit.co/dialevuyiswa@gmail.com" method="POST">
           <label htmlFor="subject">Subject:</label>
@@ -31,6 +35,6 @@ export default function Footer() {
           <button className="submission" type="submit">Submit</button>
         </form>
       </div>
-      </> 
+    </>
   );
 }

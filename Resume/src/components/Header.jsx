@@ -2,11 +2,11 @@ export default function Header() {
   return (
     <header className="head">
       <div className="description">
-     <div className="name">
-      <h1>Vuyiswa Diale</h1>
-    </div>
-      
-      <h4 className="career">Software Engineering Student</h4>
+        <div className="name">
+          <h1>Vuyiswa Diale</h1>
+        </div>
+
+        <h4 className="career">Software Engineering Student</h4>
       </div>
 
       <div className="profile">
@@ -27,17 +27,17 @@ export default function Header() {
         <p><i className="fa-regular fa-envelope"></i> dialevuyiswa@gmail.com</p>
       </div>
 
-        <div className="icons">
-          <a href="https://www.linkedin.com/in/vuyiswa-diale-a62aaa267/" target="_blank" rel="noopener noreferrer">
+      <div className="icons">
+        <a href="https://www.linkedin.com/in/vuyiswa-diale-a62aaa267/" target="_blank" rel="noopener noreferrer">
           <i className="fa-brands fa-linkedin"></i>
-          </a>
-          <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+        </a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
           <i className="fa-brands fa-instagram"></i>
-          </a>
-          <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+        </a>
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
           <i className="fa-brands fa-github"></i>
-          </a>
-        </div>
+        </a>
+      </div>
 
     </header>
   );
