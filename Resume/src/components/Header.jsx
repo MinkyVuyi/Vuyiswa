@@ -11,8 +11,8 @@ export default function Header() {
 
       <div className="profile">
         <picture>
-          <source media="(max-width: 500px)" srcSet="../images/VuyiswaM.png" alt="VuyiswaM" />
-          <source media="(max-width: 1000px)" srcSet="../images/VuyiswaS.png" alt="VuyiswaS" />
+          <source media="(max-width: 500px)" srcSet="../images/VuyiswaS.png" alt="VuyiswaM" />
+          <source media="(max-width: 1000px)" srcSet="../images/VuyiswaM.png" alt="VuyiswaS" />
           <img src="../images/Vuyiswa.png" alt="Vuyiswa" />
         </picture>
       </div>

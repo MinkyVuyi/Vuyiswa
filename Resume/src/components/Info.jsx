@@ -1,7 +1,8 @@
+
 export default function Info() {
   return (
     <div className="container">
-      
+
       <main>
         <h2 id="education">Education</h2>
         <ul>
@@ -13,7 +14,6 @@ export default function Info() {
           <li>2014/January - 2014/November: N2 and N3 Electrical Engineering at <a href="https://www.ukuqondainstitute.co.za/" target="_blank" rel="noopener noreferrer">Ukuqonda Institute</a></li>
           <li>2009/Jan - 2009/Nov Grade 12 at Marikana Combined School</li>
         </ul>
-
       </main>
 
       <section>
@@ -33,28 +33,37 @@ export default function Info() {
       </section>
 
       <div className="skill">
-        <h2 id="certification">Certification</h2>
-        <ul>
-          <li>2023/Jan: Computer Literacy and Basic Computer Skills for Productivity.</li>
-          <li>2022/Nov: Programming Fundamentals.</li>
-          <li>2017/Jan: NQF4: FET Certificate in Banking.</li>
-          <li>2014/Nov: N2 and N3 Electrical Engineering.</li>
-        </ul>
-        <h2 id="skills">Skills</h2>
-        <h4>Soft Skills and Hard skills</h4>
-        <ul>
-          <li>Problem-solving abilities.</li>
-          <li>Teamwork</li>
-          <li>Communication skills</li>
-          <li>Programming.</li>
-          <li>Computer proficiency.</li>
-        </ul>
-        <h4>Tools Proficiency</h4>
-        <ul>
-          <li>Git and Github.</li>
-          <li>Visual Studio Code.</li>
-          <li>Codepen.</li>
-        </ul>
+        <div className="side-by-side">
+
+          <div className="skill--certification">
+            <h2 id="certification">Certification</h2>
+            <ul>
+              <li>2023/Jan: Computer Literacy and Basic Computer Skills for Productivity.</li>
+              <li>2022/Nov: Programming Fundamentals.</li>
+              <li>2017/Jan: NQF4: FET Certificate in Banking.</li>
+              <li>2014/Nov: N2 and N3 Electrical Engineering.</li>
+            </ul>
+          </div>
+
+          <div className="skill--skills">
+            <h2 id="skills">Skills</h2>
+            <h4>Soft Skills and Hard skills</h4>
+            <ul>
+              <li>Problem-solving abilities.</li>
+              <li>Teamwork</li>
+              <li>Communication skills</li>
+              <li>Programming.</li>
+              <li>Computer proficiency.</li>
+            </ul>
+            <h4>Tools Proficiency</h4>
+            <ul>
+              <li>Git and Github.</li>
+              <li>Visual Studio Code.</li>
+              <li>Codepen.</li>
+            </ul>
+
+          </div>
+        </div>
       </div>
     </div>
   );

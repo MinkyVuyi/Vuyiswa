@@ -6,7 +6,6 @@ export default function Navbar() {
         <li><a href="#certification">Certification</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#skills">Skills</a></li>
-        <li><a href="#contacts">Contact Details</a></li>
       </ul>
     </nav>
   );

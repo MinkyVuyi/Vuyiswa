@@ -59,7 +59,7 @@ nav {
   width: 100%;
   background-color: #025b9b;
   font-weight: bolder;
-  font-size: 1.5vw;
+  font-size: 2vw;
   padding: 10px;
   display: flex;
   justify-content: flex-end;
@@ -101,7 +101,6 @@ nav ul li a {
   .contacts {
       font-size: 3.5vw;
   }
-
  /*  Tablet Screen */
 }
 
@@ -126,7 +125,6 @@ nav ul li a {
   .intro {
       font-size: 2vw;
   }
-
  /*  Mobile Screen */
 }
 
@@ -169,10 +167,31 @@ nav ul li a {
   width: auto;
 }
 
-/* container */
+/* Info.css */
 .container {
   display: flex;
-  font-size: 1.2vw;
+  flex-direction: column; /* Main content displayed in a column */
+  font-size: 1.5vw;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column; /* Education content displayed in a column */
+ /*  gap: 10px; Spacing between education items */
+}
+
+.side-by-side {
+  display: flex;
+  /*gap: 20px;  Spacing between certification and skills */
+}
+
+.skill--certification {
+  flex: 1;
+}
+
+.skill--skills {
+  flex: 1;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 }
 
 @media only screen and (min-width: 350px) and (max-width: 700px) {
@@ -190,6 +209,7 @@ nav ul li a {
   .container {
       display: flex;
       flex-direction: column;
+      font-size: 2vw;
   }
 
   /* Tablet Screen */
@@ -197,8 +217,8 @@ nav ul li a {
 
 /* main */
 main {
-  flex: 2;
   background-color: rgb(121, 198, 228);
+  flex: 1;
 }
 
 @media only screen and (min-width: 350px) and (max-width: 700px) {
@@ -220,9 +240,9 @@ main {
 
 /* section */
 section {
-  flex: 2;
+  flex: 3;
   background-color: rgb(121, 198, 228);
-  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  
 }
 
 @media only screen and (min-width: 350px) and (max-width: 700px) {
@@ -240,41 +260,6 @@ section {
   }
 
  /*  Tablet Screen */
-}
-
-/* footer */
-footer {
-  background-color: rgb(43, 171, 221);
-  padding-top: 1.5vw;
-  text-align: center;
-  padding-bottom: 2vw;
-}
-
-@media only screen and (min-width: 350px) and (max-width: 700px) {
-  footer {
-      background-color: rgb(242, 85, 111);
-      font-size: 1.5vw;
-      font-weight: bold;
-  }
-
-  /* Mobile Screen */
-}
-
-@media only screen and (min-width: 701px) and (max-width: 1000px) {
-  footer {
-      background-color: cadetblue;
-      font-size: 1vw;
-      font-weight: bold;
-  }
-
-/* Tablet Screen */ 
-}
-
-/* message */
-.msg {
-  padding-left: -2vw;
-  margin-left: 1.5vw;
-  width: 10vw;
 }
 
 /* button */
@@ -341,27 +326,51 @@ label {
   width: 5%;
   margin-left: 1.5vw;
 }
-
 /* Footer.css */
+
+.footer {
+  width: 100%;
+  padding: 20px 0;
+  background-color: rgb(81, 177, 214);
+  font-size: 1vw; /* Default font size */
+  color: white; /* Default text color */
+  text-align: center;
+}
+
+/* Media Queries */
+@media only screen and (min-width: 350px) and (max-width: 700px) {
+  .footer {
+    background-color: rgb(242, 85, 111); /* Mobile screen background color */
+    font-size: 1.5vw; /* Mobile screen font size */
+  }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 1000px) {
+  .footer {
+    background-color: cadetblue; /* Tablet screen background color */
+    font-size: 1vw; /* Tablet screen font size */
+  }
+}
+
 
 .form {
   border: 1px solid #ccc;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-  background-color: #4eb7e3;
 }
 
 
 .contact {
-  background-color: #007bff; /* Blue background color */
+  background-color:  #025b9b; /* Blue background color */
   padding: 10px;
   text-align: center;
 }
 
 .contact h3 {
-  margin: 0;
   color: white; /* Set the text color to white */
+  font-size: 1.5vw;
+  margin-top: 1vw;
 }
 
 form {
@@ -370,17 +379,13 @@ form {
   align-items: center;
 }
 
-.contacts {
-  background-color: #0056b3;
-}
-
 label {
   margin-bottom: 5px;
 }
 
 select, input, textarea {
   margin-bottom: 10px;
-  padding: 5px;
+  padding: 5px 5px;
   border: 1px solid #ccc;
   border-radius: 3px;
   width: 100%;
@@ -388,7 +393,9 @@ select, input, textarea {
 
 textarea.msg {
   height: 100px;
+  width: 100%;
   resize: vertical;
+  resize: horizontal;
 }
 
 .flex-form {
@@ -414,6 +421,7 @@ button.submission:hover {
 h2 {
   background-color: cadetblue;
   padding-left: 2vw;
+  align-content: center;
 }
 
 
@@ -421,18 +429,14 @@ h4 {
   padding-left: 2vw;
 }
 
-.submission {
-  margin-left: 3vw;
-  font-size: 1vw;
-}
-
-
 
 /* Used to style skills */
 .skill {
   background-color: rgb(105, 185, 217);
   flex: 1;
   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  font-size: 1.5vw;
+
 }
 
 @media only screen and (min-width: 350px) and (max-width: 700px) {
