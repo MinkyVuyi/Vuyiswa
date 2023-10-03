@@ -13,7 +13,6 @@ This is a digital resume built with React and styled with CSS, designed to showc
 - [Usage](#usage)
 - [Customization](#customization)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
