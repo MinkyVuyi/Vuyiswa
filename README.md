@@ -2,7 +2,8 @@
 
 # Digital Resume using React and CSS
 
-![Project Preview]<img src="./Resume/public/images/Vuyiswa_Resume.png" alt="Local Image" width="200"/>
+![Project Preview]
+<img src="./Resume/public/images/Vuyiswa_Resume.png" alt="Local Image" width="200"/>
 
 
 This is a digital resume built with React and styled with CSS, designed to showcase my skills, experience, and projects in a visually appealing way.
