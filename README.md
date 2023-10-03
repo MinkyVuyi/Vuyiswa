@@ -2,7 +2,7 @@
 
 # Digital Resume using React and CSS
 
-![Project Preview](Vuyiswa_Resume.png.png)
+![Project Preview](Vuyiswa_Resume.png)
 
 This is a digital resume built with React and styled with CSS, designed to showcase my skills, experience, and projects in a visually appealing way.
 
